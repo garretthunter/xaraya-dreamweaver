@@ -1,0 +1,13 @@
+<tag name="set" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+    <attrib name="scope" type="enumerated">
+      <attriboption value="module" />
+      <attriboption value="block" />
+      <attriboption value="theme" />
+    </attrib>
+    <attrib name="name"/>
+  </attributes>
+  </tag>

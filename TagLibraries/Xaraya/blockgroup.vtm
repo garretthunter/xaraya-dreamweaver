@@ -1,0 +1,9 @@
+<tag name="blockgroup" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" />
+
+  <attributes>
+    <attrib name="id"/>
+    <attrib name="name"/>
+    <attrib name="template"/>
+  </attributes>
+  </tag>

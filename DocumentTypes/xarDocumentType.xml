@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<documenttypes xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+    <documenttype id="Xaraya" internaltype="Dynamic" servermodel="PHP MySQL" previewfile="NewDocuments/default.xt" file="default.xt" macfileextension="xd,xt" winfileextension="xd,xt" writebyteordermark="false">
+        <TITLE>
+            <MMString:loadString id="xarDocTypeTitle" />
+        </TITLE>
+        <description>
+            <MMString:loadString id="xarDocTypeDescr" />
+        </description>
+    </documenttype>
+</documenttypes>

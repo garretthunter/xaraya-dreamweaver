@@ -1,0 +1,26 @@
+**CUT HERE ** AND INSERT BETWEEN <taglibraries> </taglibraries>  TAGS
+	<taglibrary DOCTYPES="HTML,DWTemplate,LibraryItem,PHP_MySQL,PHP_ADODB,Xaraya" id="DWTagLibrary_Xaraya" name="Xaraya" Prefix="&lt;xar:">
+	  <tagref file="Xaraya/block.vtm" name="block" />
+	  <tagref file="xaraya/blockgroup.vtm" name="blockgroup" />
+	  <tagref file="Xaraya/break.vtm" name="break" />
+	  <tagref file="Xaraya/continue.vtm" name="continue" />
+	  <tagref file="Xaraya/else.vtm" name="else" />
+	  <tagref file="Xaraya/elseif.vtm" name="elseif" />
+	  <tagref file="Xaraya/for.vtm" name="for" />
+	  <tagref file="Xaraya/foreach.vtm" name="foreach" />
+	  <tagref file="Xaraya/if.vtm" name="if" />
+	  <tagref file="Xaraya/loop.vtm" name="loop" />
+	  <tagref file="Xaraya/ml.vtm" name="ml" />
+	  <tagref file="Xaraya/mlkey.vtm" name="mlkey" />
+	  <tagref file="Xaraya/mlstring.vtm" name="mlstring" />
+	  <tagref file="Xaraya/mlvar.vtm" name="mlvar" />
+	  <tagref file="Xaraya/module.vtm" name="module" />
+	  <tagref file="Xaraya/sec.vtm" name="sec" />
+	  <tagref file="Xaraya/set.vtm" name="set" />
+	  <tagref file="Xaraya/template.vtm" name="template" />
+	  <tagref file="Xaraya/var.vtm" name="var" />
+	  <tagref file="Xaraya/while.vtm" name="while" />
+	  <tagref name="comment" file="Xaraya/comment.vtm"/>
+	  <tagref name="blocklayout" file="Xaraya/blocklayout.vtm"/>
+	</taglibrary>
+</taglibrary>

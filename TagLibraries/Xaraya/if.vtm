@@ -1,0 +1,12 @@
+<tag name="if" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+    <attrib name="condition"/>
+    <attrib name="inline" type="enumerated">
+      <attriboption value="false" />
+      <attriboption value="true" />
+    </attrib>
+  </attributes>
+  </tag>

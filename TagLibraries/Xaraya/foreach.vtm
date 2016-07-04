@@ -1,0 +1,10 @@
+<tag name="foreach" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+    <attrib name="in"/>
+    <attrib name="key"/>
+    <attrib name="value"/>
+  </attributes>
+  </tag>

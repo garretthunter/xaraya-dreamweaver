@@ -1,0 +1,131 @@
+<macromedia-extension name="Xaraya Blocklayout" version="1.9.6" type="taglibrary" requires-restart="true">
+    <author name="Garrett E. Hunter"/>
+    <products>
+        <product name="Dreamweaver" version="7" required="false" primary="false"/>
+        <product name="Dreamweaver" version="6" required="true" primary="true"/>
+    </products>
+    <description><![CDATA[Extends Dreamweaver to include support for the open source content management solution, Xaraya. Custom syntax highlighting, complete support for the Xaraya blocklayout specification, RFC10, and a wide selection of Xaraya APIs is included. All can be further customized after installed.<br>Xaraya Blocklayout Tag Library Extension for Dreamweaver MX<br>Copyright (c) 2004 Garrett E. Hunter.<br>Xaraya icons courtesy of Andy Varganov (andyv@xaraya.com)]]></description>
+    <ui-access><![CDATA[Creating a new Xaraya file:<br>
+Launch the new document dialog by clicking [File -> New].<br>
+Select Dynamic page in the left column and "Xaraya Template" in the right column. <br>
+<br>
+To change the HTML Code Hints within Xaray templates:<br>
+Go to [Edit -> Tag Libraries...] and check the Xaraya box under the HTML library. <br>
+<br>
+To change Color Preferences:<br>
+Choose [Edit -> Preferences] then select the Color Coding category and then select the Xaraya document type. Click the Edit Coloring Scheme to change the colors for specific Xaraya keywords. <br>
+<br>
+For additional information on extending Dreamweaver consult the "Extending Dreamweaver" help file.<br>
+<br>
+For a detailed tutorial on using the Xaraya Blocklayout Tag Library visit http://www.xaraya.com/index.php/news/206.]]></ui-access>
+    <files>
+        <file source="CodeColoring/xarColors.xml" destination="$dreamweaver/Configuration/CodeColoring"/>
+        <file source="CodeColoring/xarCodeColoring.xml" destination="$dreamweaver/Configuration/CodeColoring"/>
+        <file source="CodeHints/xarCodeHints.xml" destination="$dreamweaver/Configuration/CodeHints"/>
+        <file source="DocumentTypes/NewDocuments/default.xt" destination="$dreamweaver/Configuration/DocumentTypes/NewDocuments"/>
+        <file source="Inspectors/xar_flowinterrupt_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xar_id_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblock_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblock_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblockgroup_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblockgroup_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblocklayout_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarblocklayout_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarbreak_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarcomment_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarcomment_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarcontinue_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarelse_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarelseif_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarfor_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarfor_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarforeach_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarforeach_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarif_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarif_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarloop_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarloop_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarml_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarmlkey_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarmlstring_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarmlvar_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarmodule_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarmodule_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarsec_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarsec_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarset_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarset_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xartemplate_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xartemplate_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarvar_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarvar_inspector.js" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Inspectors/xarwhile_inspector.htm" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="Strings/xarStrings.xml" destination="$dreamweaver/Configuration/Strings"/>
+        <file source="TagLibraries/Xaraya/block.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/blockgroup.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/blocklayout.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/break.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/comment.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/continue.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/else.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/elseif.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/for.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/foreach.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/if.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/loop.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/ml.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/mlkey.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/mlstring.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/mlvar.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/module.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/sec.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/set.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/template.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/var.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="TagLibraries/Xaraya/while.vtm" destination="$dreamweaver/Configuration/TagLibraries/Xaraya"/>
+        <file source="ThirdPartyTags/XAR.gif" destination="$dreamweaver/Configuration/ThirdPartyTags"/>
+        <file source="ThirdPartyTags/XAR.gif" destination="$dreamweaver/Configuration/Inspectors"/>
+        <file source="ThirdPartyTags/xaraya.xml" destination="$dreamweaver/Configuration/ThirdPartyTags"/>
+    </files>
+    <configuration-changes>
+        <extensions-changes>
+            <extension-insert extension="XD,XT" description="Xaraya Template files"/>
+        </extensions-changes>
+        <documenttype-changes>
+            <documenttype-insert>
+                <documenttype id="Xaraya" internaltype="Dynamic" winfileextension="xd,xt" macfileextension="xd,xt" file="default.xt" writebyteordermark="false" servermodel="PHP MySQL" previewfile="NewDocuments/default.xt">
+                    <TITLE><![CDATA[Xaraya Template]]></TITLE>
+                    <description><![CDATA[Xaraya Blocklayout document]]></description>
+                </documenttype>
+            </documenttype-insert>
+        </documenttype-changes>
+        <taglibrary-changes>
+            <taglibrary-insert>
+                <taglibrary prefix="&lt;xar:" name="Xaraya" doctypes="HTML,DWTemplate,LibraryItem,PHP_MySQL,PHP_ADODB,Xaraya" id="DWTagLibrary_Xaraya">
+                    <tagref name="block" file="Xaraya/block.vtm"/>
+                    <tagref name="blockgroup" file="Xaraya/blockgroup.vtm"/>
+                    <tagref name="blocklayout" file="Xaraya/blocklayout.vtm"/>
+                    <tagref name="break" file="Xaraya/break.vtm"/>
+                    <tagref name="comment" file="Xaraya/comment.vtm"/>
+                    <tagref name="continue" file="Xaraya/continue.vtm"/>
+                    <tagref name="else" file="Xaraya/else.vtm"/>
+                    <tagref name="elseif" file="Xaraya/elseif.vtm"/>
+                    <tagref name="for" file="Xaraya/for.vtm"/>
+                    <tagref name="foreach" file="Xaraya/foreach.vtm"/>
+                    <tagref name="if" file="Xaraya/if.vtm"/>
+                    <tagref name="loop" file="Xaraya/loop.vtm"/>
+                    <tagref name="ml" file="Xaraya/ml.vtm"/>
+                    <tagref name="mlkey" file="Xaraya/mlkey.vtm"/>
+                    <tagref name="mlstring" file="Xaraya/mlstring.vtm"/>
+                    <tagref name="mlvar" file="Xaraya/mlvar.vtm"/>
+                    <tagref name="module" file="Xaraya/module.vtm"/>
+                    <tagref name="sec" file="Xaraya/sec.vtm"/>
+                    <tagref name="set" file="Xaraya/set.vtm"/>
+                    <tagref name="template" file="Xaraya/template.vtm"/>
+                    <tagref name="var" file="Xaraya/var.vtm"/>
+                    <tagref name="while" file="Xaraya/while.vtm"/>
+                </taglibrary>
+            </taglibrary-insert>
+        </taglibrary-changes>
+    </configuration-changes>
+</macromedia-extension>

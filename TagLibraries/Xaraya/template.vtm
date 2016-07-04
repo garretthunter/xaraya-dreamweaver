@@ -1,0 +1,17 @@
+<tag name="template" endtag="no">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes>
+    <attrib name="id"/>
+    <attrib name="file" TYPE="relativepath"/>
+    <attrib name="type" TYPE="enumerated">
+      <attriboption VALUE="module" />
+      <attriboption VALUE="theme" />
+    </attrib>
+    <attrib name="compile" TYPE="enumerated">
+      <attriboption VALUE="true" />
+      <attriboption VALUE="false" />
+    </attrib>
+    <attrib name="subdata"/>
+  </attributes>
+  </tag>

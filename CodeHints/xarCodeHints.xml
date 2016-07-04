@@ -1,0 +1,131 @@
+<codehints xmlns:MMString="http://www.macromedia.com/schemes/data/string/">
+
+<menugroup MMString:name="xarCodeHints" enabled="true" id="CodeColor_XarAPI">
+  <description>
+    <MMString:loadString id="xarCodeHintDescr" />
+  </description>
+    <menu pattern="#xarMo" DOCTYPES="Xaraya,PHP_MySQL">
+        <menuitem label="xarModAPIFunc" value="dAPIFunc(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModAPILoad" value="dAPILoad(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModCallHooks" value="dCallHooks(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModDBInfoLoad" value="dDBInfoLoad(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModDelAlias" value="dDelAlias(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModDelAllVars" value="dDelAllVars(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModDelUserVar" value="dDelUserVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModDelVar" value="dDelVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModEmailURL" value="dEmailURL(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModFunc" value="dFunc(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetAlias" value="dGetAlias(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetDisplayableName" value="dGetDisplayableName(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetHookList" value="dGetHookList(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetIDFromName" value="dGetIDFromName(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetInfo" value="dGetInfo(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetName" value="dGetName(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetUserVar" value="dGetUserVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetVar" value="dGetVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModGetVarId" value="dGetVarId(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModIsAvailable" value="dIsAvailable(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModIsHooked" value="dIsHooked(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModLoad" value="dLoad(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModPrivateLoad" value="dPrivateLoad(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModRegisterHook" value="dRegisterHook(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModSetAlias" value="dSetAlias(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModSetUserVar" value="dSetUserVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModSetVar" value="dSetVar(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModUnregisterHook" value="dUnregisterHook(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarModURL" value="dURL(" icon="shared/mm/images/Method.png" />
+    </menu>
+
+    <function pattern="xarModAPIFunc(string $modName, [string $modType='user'], [string $funcName='main'], [array $args], [int $throwException=1])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModAPILoad(string $modName, [string $modType='user'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModCallHooks(mixed $hookObject, string $hookAction, int $hookId, mixed $extraInfo, [string $callerModName=NULL], [string $callerItemType=''])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModDBInfoLoad(string $modName, [string $modDir=NULL], [string $type='module'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModDelAlias(string $alias, string $modname)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModDelAllVars(string $modName)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModDelUserVar(string $modName, string $name, [int $uid=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModDelVar(string $modName, string $name)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModEmailURL()" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModFunc(string $modName, [string $modType='user'], [string $funcName='main'], [array $args])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetAlias(string $var)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetDisplayableName(string $modName)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetHookList(string $callerModName, mixed $hookObject, string $hookAction, [string $callerItemType=''])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetIDFromName(string $modName, [string $type='module'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetInfo(int $modRegId, [string $type='module'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetName(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetUserVar(string $modName, string $name, [int $uid=NULL], [int $prep=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetVar(string $modName, string $name, [int $prep=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModGetVarId(string $modName, string $name)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModIsAvailable(string $modName, [string $type='module'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModIsHooked(string $hookModName, [string $callerModName=NULL], [string $callerItemType=''])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModLoad(string $modName, [string $modType='user'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModPrivateLoad(string $modName, string $modType, [int $flags=XARMOD_LOAD_ANYSTATE])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModRegisterHook()" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModSetAlias(string $alias, string $modname)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModSetUserVar(string $modName, string $name, mixed $value, [int $uid=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModSetVar(string $modName, string $name, mixed $value)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModUnregisterHook()" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarModURL(string $modName, [string $modType], [string $funcName], [array $args], [int $generateXMLURL], [string $target], [array $entrypoint])" doctypes="Xaraya" caseSensitive="true" />
+
+    <menu pattern="#xarD" DOCTYPES="Xaraya,PHP_MySQL">
+        <menuitem label="xarDBAlterTable" value="BAlterTable(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBCreateDatabase" value="BCreateDatabase(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBCreateIndex" value="BCreateIndex(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBCreateTable" value="BCreateTable(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBDropIndex" value="BDropIndex(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBDropTable" value="BDropTable(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetTables" value="BGetTables(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetConn" value="BGetConn(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBNewDataDict" value="BNewDataDict(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetHost" value="BGetHost(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetName" value="BGetName(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetSiteTablePrefix" value="BGetSiteTablePrefix(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetSystemTablePrefix" value="BGetSystemTablePrefix(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBGetType" value="BGetType(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarDBLoadTableMaintenanceAPI" value="BLoadTableMaintenanceAPI(" icon="shared/mm/images/Method.png" />
+    </menu>
+
+    <function pattern="xarDBAlterTable(string $tableName, array $args, [string $databaseType=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBCreateDatabase(string $databaseName, [string $databaseType=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBCreateIndex(string $tableName, array $index, [string $databaseType=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBCreateTable(string $tableName, array $fields, [string $databaseType=""])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBDropIndex(string $tableName, array $index, [string $databaseType=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBDropTable(string $tableName, [string $databaseType=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetTables(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetConn(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBNewDataDict(mixed $dbconn, [string $mode='READONLY'])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetHost(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetName(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetSiteTablePrefix(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetSystemTablePrefix(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBGetType(void)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarDBLoadTableMaintenanceAPI(void)" doctypes="Xaraya" caseSensitive="true" />
+
+    <menu pattern="#xarLoc" DOCTYPES="Xaraya,PHP_MySQL">
+        <menuitem label="xarLocaleFormatCurrency" value="aleFormatCurrency(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleFormatDate" value="aleFormatDate(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleFormatNumber" value="aleFormatNumber(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleFormatUTCDate" value="aleFormatUTCDate(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetFormattedDate" value="aleGetFormattedDate(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetFormattedTime" value="aleGetFormattedTime(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetFormattedUTCDate" value="aleGetFormattedUTCDate(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetFormattedUTCTime" value="aleGetFormattedUTCTime(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetInfo" value="aleGetInfo(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetList" value="aleGetList(" icon="shared/mm/images/Method.png" />
+        <menuitem label="xarLocaleGetString" value="aleGetString(" icon="shared/mm/images/Method.png" />
+    </menu>
+
+    <function pattern="xarLocaleFormatCurrency(float $currency, [$localeData=NULL])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleFormatDate([string $format=null], [int $timestamp=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleFormatNumber(float $number, [array $localeData=NULL], [bool $isCurrency=false])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleFormatUTCDate([string $format=null], [int $time=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetFormattedDate([string $length='short'], [int $timestamp=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetFormattedTime([string $length='short'], [int $timestamp=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetFormattedUTCDate([string $length='short'], [int $timestamp=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetFormattedUTCTime([string $length='short'], [int $timestamp=null])" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetInfo(array $locale)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetList(array $filter)" doctypes="Xaraya" caseSensitive="true" />
+    <function pattern="xarLocaleGetString(array $localeInfo)" doctypes="Xaraya" caseSensitive="true" />
+
+</menugroup>
+
+</codehints>

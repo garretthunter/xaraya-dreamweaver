@@ -1,0 +1,26 @@
+<!-- Xaraya -->
+<tagspec tag_name="xar:block"       tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:blockgroup"  tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:blocklayout" tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:break"       tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:comment"     tag_type="nonempty" render_contents="false" content_model="marker_model"   icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:continue"    tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:else"        tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:elseif"      tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:for"         tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:foreach"     tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:if"          tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:loop"        tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:module"      tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:sec"         tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:set"         tag_type="nonempty" render_contents="false"  content_model="marker_model"          icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:template"    tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:var"         tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:while"       tag_type="empty"    render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+
+<!-- not sure how to display these because of their relationship to each other. ml is a container for key & var... -->
+<tagspec tag_name="xar:ml"          tag_type="empty"  render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:mlkey"       tag_type="empty"  render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:mlstring"    tag_type="empty"  render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+<tagspec tag_name="xar:mlvar"       tag_type="empty"  render_contents="true" content_model="marker_model" icon="XAR.gif" icon_width="16" icon_height="16"></tagspec>
+

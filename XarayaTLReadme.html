@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<h4>Xaraya Tag Library Installation</h4>
+<p>I created the Xaraya Tag Library for Macromedia Dreamweaver MX back when I started developing my first Xaraya module. Xaraya makes use of custom tags to control the appearance and functionality of your website. There are about 20 different tags each with multiple attributes. Instead of trying to remember all those new tags I decided to leverage Dreamweaver's Tag Library feature to help save me the trouble. </p>
+<p>One of the nice things about Dreamweaver MX is its built in support for customized tag libraries. Tag libraries are used in Dreamweaver's Code View to provide pop-up hints for the tag your are typing.
+  Instead of trying to remember each Xaraya tag and its attributes, I just start typing 
+    <code class="xar-error">&lt;xar</code> 
+and Dreamweaver pops a list of possible options that I can scroll through. After you've selected a tag hit the space bar and the list of valid attributes is popped up for selection. You can read more about Tag Libraries in the Dreamweaver documentation. I combed through the entire BlockLayout specification (Xaraya RFC 10) to compile what I hope is a complete list of tags and their attributes.</p>
+<h4>Installation</h4>
+<p>1. Locate the Dreamweaver TagLibraries directory within the user configuration directory</p>
+<blockquote>Eventually you will be able to install the tag library via the Macromedia Extension Manager, however at this time, the installation process must be performed manually. There are two separate configuration directories, one for the program itself and one for your user specific settings. Find the user specific directory. On the Windows 2000/XP platform this is normally located under the &quot;Document and Settings\&lt;username&gt;\Application Data\Macromedia\Dreamweaver MX\Configuration\TagLibraries&quot;. </blockquote>
+
+<p>2. Download the Xaraya Tag Library to the TagLibraries directory</p>
+<blockquote>Download the tag library to the TagLibraries directory and extract. This should create a directory called xaraya, a file called TagLibraries-Xaraya-vtm, and a file called XarayaTLReadme.html. The directory xaraya contains the actual tag definitions. The file TagLibraries-Xaraya.vtm contains the xml definitions that allow Dreamweaver to recognize the Xaraya tags. The file XarayaTLReadme.html contains the installation instructions you are now reading.<br>
+  <br>
+  <a href="download/dwXarayaTagLibrary.zip">dwXarayaTagLibrary.zip</a> </blockquote>
+<p>3. Configure Dreamweaver to recognize new Xaraya tags</p>
+<blockquote>While still in the TagLibraries directory open both the TagLibraries-Xaray.vtm file and the Dreamweaver configuration file TagLibraries.vtm in your favorite text editor (mine is TextPad.) Copy the contents from the TagLibraries-Xaraya.vtm following the directions in the file into the existing TagLibraries.vtm file. The contents you are copying allow Dreamweaver to recognize &amp; display the Xaraya tags. After you have pasted the contents save and close TagLibraries.vtm.</blockquote>
+<p>4. Verify Xaraya Tag Library installation</p>
+<blockquote>Finally, restart Dreamweaver and open the Tag Library Editor (Edit-&gt;Tag Libraries...) and verify you see a folder titled Xaraya that contains all the xar:* tags. If you do, you can safely delete the TagLibraries-Xaraya.vtm and XarayaTLReadme.html files.</blockquote>
+<p>Happy Coding!</p>
+<p>That's all folks. Now when you edit a file in Code View you will see the Xaraya tag hints. If you have any problems during the installation process please post a comment here or drop me an email.</p>
+</body>
+</html>

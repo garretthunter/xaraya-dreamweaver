@@ -1,0 +1,57 @@
+<!-- tag:xar:for,priority:1,selection:exact-->
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 6.0//pi">
+<html>
+
+<head>
+<!-- Copyright 2004 Garrett Hunter. All rights reserved. -->
+<title>xar:for Tag Property Inspector</title>
+<SCRIPT LANGUAGE="javascript" SRC="_pi_common.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/dwscripts.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/TagEditClass.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="xarfor_inspector.js"></SCRIPT>
+<script language="javascript">
+function displayHelp()
+{
+    alert("The <xar:for> tag is a control structure which emulates a for loop, " +
+          "like encountered in most programming languages. Based on a 'start', 'test' " +
+          "and 'iter' attribute, the child tags of the tag are processed zero or more times.");
+}
+</script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<span id="image" style="position:absolute; width:36px; height:36px; z-index:1; left: 5px; top: 9px"><img src="XAR.gif" width="36" height="36"></span>
+<div id="idBoxLayer" style="position:absolute; width:65px; height:38px; z-index:1; left: 44px; top: 9px; visibility: visible;">
+<table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" height="17" NOWRAP>id</td>
+        </tr>
+        <tr>
+          <td align="left" nowrap>
+
+        <input name="id" type="text" id="id" style="width:65px" onBlur="updateTag('id')" tabindex="6">
+          </td>
+        </tr>
+  </table>
+</div>
+<div id="topLayer" style="position:absolute; left:125px; top:2px; width:200px; height:38px; z-index:25">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="right" nowrap>Start&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="start" id="start" onBlur="updateTag('start')" style="width:100px" tabindex="1"></td>
+      <td align="right" nowrap>Iteration&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="iter" id="iter" onBlur="updateTag('iter')" style="width:100px" tabindex="3"></td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>Test&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+        <input type="text" name="test" id="test" onBlur="updateTag('test')" style="width:100px" tabindex="2">     </td>
+      <td align="right" nowrap>&nbsp;</td>
+      <td align="left" nowrap>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

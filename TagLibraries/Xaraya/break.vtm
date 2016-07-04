@@ -1,0 +1,7 @@
+<tag name="break" endtag="no">
+    <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    <attributes> 
+      <attrib name="id"/>
+      <attrib name="depth"/>
+    </attributes>
+  </tag>

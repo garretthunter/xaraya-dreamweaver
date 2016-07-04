@@ -1,0 +1,6 @@
+<strings>
+    <string id="xarDocTypeTitle"    value="Xaraya Template" />
+    <string id="xarDocTypeDescr"    value="&lt;![CDATA[Xaraya Blocklayout template]]&gt;" />
+    <string id="xarCodeHints"       value="Xaraya Code Hints" />
+    <string id="xarCodeHintsDescr"  value="&lt;![CDATA[Xaraya Code Hints]]&gt;" />
+</strings>

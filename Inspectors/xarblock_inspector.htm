@@ -1,0 +1,66 @@
+<!-- tag:xar:block,priority:1,selection:exact-->
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 6.0//pi">
+<html>
+
+<head>
+<!-- Copyright 2004 Garrett Hunter. All rights reserved. -->
+<title>xar:block Tag Property Inspector</title>
+<SCRIPT LANGUAGE="javascript" SRC="_pi_common.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/dwscripts.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/TagEditClass.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="xarblock_inspector.js"></SCRIPT>
+<script language="javascript">
+function displayHelp()
+{
+    alert("The xar:block tag places a \"block\" of content into the output. " +
+		  "A block is always owned by a module, which is responsible for " +
+		  "feeding the block with the appropriate information to produce its " +
+		  "output. There are a number of flexible ways to control what a block " +
+		  "contains and how it will appear in the output.");
+}
+</script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<span id="image" style="text-align:center; position:absolute; width:36px; height:36px; z-index:1; left: 5px; top: 9px; vertical-align: middle; border-color: #000000;"><br>
+block</span>
+<div id="idBoxLayer" style="position:absolute; width:65px; height:38px; z-index:1; left: 44px; top: 9px; visibility: visible;">
+<table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" height="17" NOWRAP>id</td>
+        </tr>
+        <tr>
+          <td align="left" nowrap>
+
+        <input name="id" type="text" id="id" style="width:65px" onBlur="updateTag('id')" tabindex="6">
+          </td>
+        </tr>
+  </table>
+</div>
+<div id="topLayer" style="position:absolute; left:125px; top:2px; width:200px; height:38px; z-index:25">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="right" nowrap>Module&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="module" id="module" onBlur="updateTag('module')" style="width:100px" tabindex="1"></td>
+      <td align="right" nowrap>Template&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="template" id="template" onBlur="updateTag('template')" style="width:100px" tabindex="3"></td>
+      <td align="right" nowrap>Title&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="title" id="title" onBlur="updateTag('title')" style="width:100px" tabindex="5"></td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>Name&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+		<input type="text" name="name" id="name" onBlur="updateTag('name')" style="width:100px" tabindex="2">	  </td>
+      <td align="right" nowrap>Instance&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <input type="text" name="instance" id="instance" onBlur="updateTag('instance')" style="width:100px" tabindex="4"></td>
+      <td nowrap>&nbsp;</td>
+      <td nowrap>&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

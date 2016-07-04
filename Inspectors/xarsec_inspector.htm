@@ -1,0 +1,59 @@
+<!-- tag:xar:sec,priority:1,selection:exact-->
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 6.0//pi">
+<html>
+
+<head>
+<!-- Copyright 2004 Garrett Hunter. All rights reserved. -->
+<title>xar:sec Tag Property Inspector</title>
+<SCRIPT LANGUAGE="javascript" SRC="_pi_common.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/dwscripts.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/TagEditClass.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="xarsec_inspector.js"></SCRIPT>
+<script language="javascript">
+function displayHelp()
+{
+    alert("<xar:sec> translates directly to a call to xarSecurityCheck(), " +
+	      "and is treated like an 'if' clause. <xar:else /> and <xar:elseif /> " +
+		  "tags may be attached as for an <xar:if />.");
+}
+</script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<span id="image" style="position:absolute; width:36px; height:36px; z-index:1; left: 5px; top: 9px"><img src="XAR.gif" width="36" height="36"></span>
+<div id="idBoxLayer" style="position:absolute; width:65px; height:38px; z-index:1; left: 44px; top: 9px; visibility: visible;">
+<table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" height="17" NOWRAP>id</td>
+        </tr>
+        <tr>
+          <td align="left" nowrap>
+
+        <input name="id" type="text" id="id" style="width:65px" onBlur="updateTag('id')" tabindex="6">
+          </td>
+        </tr>
+  </table>
+</div>
+<div id="topLayer" style="position:absolute; left:125px; top:2px; width:200px; height:38px; z-index:25">
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="right" nowrap>Mask&nbsp;</td>
+      <td align="left" nowrap>&nbsp; <input type="text" name="mask" id="mask" onBlur="updateTag('mask')" style="width:100px" tabindex="3"></td>
+      <td align="right" nowrap>Instance&nbsp;</td>
+      <td align="left" nowrap>&nbsp; <input type="text" name="instance" id="instance" onBlur="updateTag('instance')" style="width:100px" tabindex="4"></td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>Component&nbsp;</td>
+      <td align="left" nowrap>&nbsp;	<input type="text" name="component" id="component" onBlur="updateTag('component')" style="width:100px" tabindex="5"></td>
+      <td align="right" nowrap>Catch&nbsp;</td>
+      <td align="left" nowrap>&nbsp;
+      <select name="catch" id="catch" onChange="updateTag('catch')">
+        <option value=""></option>
+        <option value="true">true</option>
+        <option value="false">false</option>
+      </select></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

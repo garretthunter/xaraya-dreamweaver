@@ -1,0 +1,7 @@
+<tag name="elseif" endtag="no">
+  <tagformat nlbeforetag="0" nlaftertag="0" />
+  <attributes>
+    <attrib name="condition"/>
+    <attrib name="id"/>
+  </attributes>
+</tag>

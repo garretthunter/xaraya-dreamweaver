@@ -1,0 +1,41 @@
+Title:
+Dreamweaver Extension for Xaraya Templates
+
+Introduction:
+So you've installed Xaraya and are ready to create your very own templates? Don't remember all the BlockLayout tags? Well, you're not alone. That's why I created the Macromedia Dreamweaver Extension for Xaraya. Install it via the Extension Manager and you'll be creating your Xaraya templates in no time at all.
+
+Body Text:
+I created the Dreamweaver extension when I started developing my first Xaraya module. There are about 20 different tags each with multiple attributes which posed a learning curve in the beginning. Instead of trying to remember all those new tags I decided to leverage Dreamweaver's Tag Library feature to help save some time.<br />
+<br />
+Dreamweaver's Tag Library provides a convenient mechanism for displaying code hints while editing Xaraya templates. Tag libraries are used in Dreamweaver's Code View to provide pop-up menus to help narrow down the tag selection based on the characters you type. Although I use only a handful, it is nice to be reminded of each tag's attributes and options. Start typing <strong>&lt;xar</strong> and Dreamweaver pops a list of Xaraya tags to scroll through. After you've selected a tag hit the space key and the list of valid attributes is displayed for selection. You can read more about Tag Libraries in the Dreamweaver documentation. I combed through the entire BlockLayout specification (Xaraya RFC 10) to compile, what I hope, is a complete list of tags and their attributes.<br />
+<br />
+<h3>Installing / Customizing</h3>
+<br />
+The Xaraya Tag Library extension is installed via the Macromedia Extension Manager and can be downloaded from the Macromedia <a href="http://www.macromedia.com/cfusion/exchange/index.cfm#view=sn121&viewName=Dreamweaver%20Extension&loc=en_us&extID=1005940&catID=34">Dreamweaver Exchange</a> site. Either install the extension directly from the web or save it to your workstation and launch the Extension Manager and select "File->Install Extension." This extension works on Dreamweaver MX and up. If you want to further customize the Xaraya Tag Library, open the Dreamweaver Tag Library Editor (Edit->Tag Libraries...) and look for the library called Xaraya.<br />
+<br />
+One final note as you install the extension. Because I have created a new 'Xaraya' document type within Dreamweaver you will want to update the HTML Tag Library to use this new document type. It's a manual step but very easy.<br />
+<br />
+Open the Tag Library [Edit->Tag Libraries...] and under 'Used in' check the Xaray box.<br />
+<img src="http://www.blacktower.com/xaraya/images/articles/doctype.png" alt="Select the Xaraya checkbox under 'Used in:' in order to see the HTML tag hints in your Xaraya templates." /><br />
+ <br />
+The following page provides an example of the Xaraya Dreamweaver Extension at work.<br />
+
+<!--pagebreak-->
+
+<strong>Xaraya Dreamweaver Extension at Work..</strong><br />
+<br /> 
+In this example I want use the &lt;xar:template tag. Watch as Dreamweaver provides pop-up hints to help me select the tag, its attributes, and values.<br />
+<br />
+When I start typing &lt;xar: Dreamweaver automatically displays relevant tags until it narrows in on the tag itself. Notice that &lt;xar:template is highlighted while I've only typed a portion of the tag.<br />
+<img src="http://www.blacktower.com/xaraya/images/articles/codeview.jpg" alt="Dreamweaver automatically displays relevant tags until it matches the tag I type" /><br />
+ <br />
+After hitting &lt;enter&gt; to select the tag and then pressing the space key, I am given a list of all the attributes for the &lt;xar:template tag. I'll be choosing the 'compile' attribute<br />
+<img src="http://www.blacktower.com/xaraya/images/articles/codeview1.jpg" alt="The list of all the attributes for the &lt;xar:template tag." /><br />
+<br />
+Now that I've selected the 'compile' attribute I'm given additional options from which to select.<br />
+<img src="http://www.blacktower.com/xaraya/images/articles/codeview2.jpg" alt="Additional options from which to select." /><br />
+<br />
+The net result makes for easier coding and shortens the learning curve. What do you think? Did it help you? Comments and feedback welcome. 
+
+Notes:
+If you manually installed the original version of the Xaraya Tag Library you will need to manually uninstall before using this extension. This update is optional.

@@ -1,0 +1,7 @@
+<tag name="mlkey" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+  </attributes>
+  </tag>

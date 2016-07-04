@@ -1,0 +1,10 @@
+<tag name="for" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+    <attrib name="start"/>
+    <attrib name="test"/>
+    <attrib name="iter"/>
+  </attributes>
+  </tag>

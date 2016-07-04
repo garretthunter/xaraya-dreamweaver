@@ -1,0 +1,14 @@
+<tag name="sec" endtag="yes">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes> 
+    <attrib name="id"/>
+    <attrib name="mask"/>
+    <attrib name="catch" type="enumerated">
+      <attriboption value="true" />
+      <attriboption value="false" />
+    </attrib>
+    <attrib name="component"/>
+    <attrib name="instance"/>
+  </attributes>
+  </tag>

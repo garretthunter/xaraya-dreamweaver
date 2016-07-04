@@ -1,0 +1,16 @@
+<tag name="blocklayout" endtag="yes" tagtype="nonempty">
+  <tagformat nlbeforetag="0" nlaftertag="0" />
+  <attributes>
+    <attrib name="version" TYPE="enumerated">
+      <attriboption VALUE="1.0" />
+    </attrib>
+    <attrib name="content" TYPE="enumerated">
+      <attriboption VALUE="text/html" />
+      <attriboption VALUE="text/plain" />
+      <attriboption VALUE="text/xml" />
+    </attrib>
+    <attrib name="xmlns:xar" type="enumerated">
+      <attriboption value="http://xaraya.com/2004/blocklayout" />
+    </attrib>
+  </attributes>
+</tag>

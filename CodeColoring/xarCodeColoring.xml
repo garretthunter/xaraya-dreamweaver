@@ -1,0 +1,101 @@
+<codeColoring>
+    <tagGroup name="Xaraya Blocklayout Tags" id="CodeColor_XarTag" taglibrary="DWTagLibrary_Xaraya" tags="xar:block,xar:blockgroup,xar:blocklayout,xar:break,xar:comment,xar:continue,xar:else,xar:elseif,xar:for,xar:foreach,xar:if,xar:loop,xar:ml,xar:mlkey,xar:mlstring,xar:mlvar,xar:module,xar:sec,xar:set,xar:template,xar:var,xar:while" />
+    <tagGroup name="Xaraya API" id="CodeColor_XarAPI" taglibrary="DWTagLibrary_Xaraya" tags="xarModFuncAPI" />
+
+    <scheme name="Xaraya" id="HTML" DOCTYPES="Xaraya,PHP_MySQL" priority="1">
+        <ignoreCase>Yes</ignoreCase>
+        <ignoreTags>No</ignoreTags>
+        <defaultAttribute name="Xaraya Blocklayout" />
+        <commentStart name="Comment" id="CodeColor_XarComment"><![CDATA[<!--]]></commentStart>
+        <commentEnd><![CDATA[-->]]></commentEnd>
+        <commentStart><![CDATA[<xar:comment>]]></commentStart>
+        <commentEnd><![CDATA[</xar:comment>]]></commentEnd>
+        <stringStart name="Attribute Value" id="CodeColor_HTMLString"><![CDATA["]]></stringStart>
+        <stringEnd><![CDATA["]]></stringEnd>
+        <stringStart><![CDATA[']]></stringStart>
+        <stringEnd><![CDATA[']]></stringEnd>
+        <numbers name="Number" id="CodeColor_HTMLNumber" />
+        <entity name="Special Characters" id="CodeColor_HTMLEntity" />
+        <cssSelector id="CodeColor_CSSSelector" />
+        <cssProperty id="CodeColor_CSSProperty" />
+        <cssValue id="CodeColor_CSSValue" />
+        <idChar1>_$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</idChar1>
+        <idCharRest name="Identifier" id="CodeColor_PHPScriptIdentifier">_$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</idCharRest>
+        <functionKeyword name="Function Keyword" id="CodeColor_PHPScriptFunction">function</functionKeyword>
+        <keywords name="Module Functions" id="CodeColor_XarAPI">
+            <keyword>xarModAPIFunc</keyword>
+            <keyword>xarModAPILoad</keyword>
+            <keyword>xarModCallHooks</keyword>
+            <keyword>xarModDBInfoLoad</keyword>
+            <keyword>xarModDelAlias</keyword>
+            <keyword>xarModDelAllVars</keyword>
+            <keyword>xarModDelUserVar</keyword>
+            <keyword>xarModDelVar</keyword>
+            <keyword>xarModEmailURL</keyword>
+            <keyword>xarModFunc</keyword>
+            <keyword>xarModGetAlias</keyword>
+            <keyword>xarModGetDisplayableName</keyword>
+            <keyword>xarModGetHookList</keyword>
+            <keyword>xarModGetIDFromName</keyword>
+            <keyword>xarModGetInfo</keyword>
+            <keyword>xarModGetName</keyword>
+            <keyword>xarModGetUserVar</keyword>
+            <keyword>xarModGetVar</keyword>
+            <keyword>xarModGetVarId</keyword>
+            <keyword>xarModIsAvailable</keyword>
+            <keyword>xarModIsHooked</keyword>
+            <keyword>xarModLoad</keyword>
+            <keyword>xarModPrivateLoad</keyword>
+            <keyword>xarModRegisterHook</keyword>
+            <keyword>xarModSetAlias</keyword>
+            <keyword>xarModSetUserVar</keyword>
+            <keyword>xarModSetVar</keyword>
+            <keyword>xarModUnregisterHook</keyword>
+            <keyword>xarModURL</keyword>
+        </keywords>
+        <keywords name="Database Functions" id="CodeColor_XarAPI">
+            <keyword>xarDBAlterTable</keyword>
+            <keyword>xarDBCreateDatabase</keyword>
+            <keyword>xarDBCreateIndex</keyword>
+            <keyword>xarDBCreateTable</keyword>
+            <keyword>xarDBDropIndex</keyword>
+            <keyword>xarDBDropTable</keyword>
+            <keyword>xarDBGetTables</keyword>
+            <keyword>xarDBGetConn</keyword>
+            <keyword>xarDBNewDataDict</keyword>
+            <keyword>xarDBGetHost</keyword>
+            <keyword>xarDBGetName</keyword>
+            <keyword>xarDBGetSiteTablePrefix</keyword>
+            <keyword>xarDBGetSystemTablePrefix</keyword>
+            <keyword>xarDBGetType</keyword>
+            <keyword>xarDBLoadTableMaintenanceAPI</keyword>
+        </keywords>
+        <keywords name="Locale Functions" id="CodeColor_XarAPI">
+            <keyword>xarLocaleFormatCurrency</keyword>
+            <keyword>xarLocaleFormatDate</keyword>
+            <keyword>xarLocaleFormatNumber</keyword>
+            <keyword>xarLocaleFormatUTCDate</keyword>
+            <keyword>xarLocaleGetFormattedDate</keyword>
+            <keyword>xarLocaleGetFormattedTime</keyword>
+            <keyword>xarLocaleGetFormattedUTCDate</keyword>
+            <keyword>xarLocaleGetFormattedUTCTime</keyword>
+            <keyword>xarLocaleGetInfo</keyword>
+            <keyword>xarLocaleGetList</keyword>
+            <keyword>xarLocaleGetString</keyword>
+        </keywords>
+
+        <sampleText DOCTYPES="Xaraya,PHP_MySQL">
+<![CDATA[<!-- Sample Xaraya text -->
+<xar:comment>This is a comment</xar:comment>
+  <xar:if condition="1 ne 0">
+      some html text
+      xarModAPIFunc("articles","user","view");
+      xarDBGetConn()
+      xarLocaleFormatCurrency()
+  <xar:else />
+      <a href="#">a link</a>
+  </xar:if>
+]]>
+        </sampleText>
+    </scheme>
+</codeColoring>

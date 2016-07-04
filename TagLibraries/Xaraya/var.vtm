@@ -1,0 +1,16 @@
+<tag name="var" endtag="no">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes>
+    <attrib name="id"/>
+    <attrib name="scope" type="enumerated">
+      <attriboption value="local" />
+      <attriboption value="config" />
+      <attriboption value="module" />
+      <attriboption value="block" />
+      <attriboption value="theme" />
+      <attriboption value="user" />
+    </attrib>
+    <attrib name="name"/>
+  </attributes>
+  </tag>

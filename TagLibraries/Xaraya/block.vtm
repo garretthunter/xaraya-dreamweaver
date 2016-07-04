@@ -1,0 +1,13 @@
+<tag name="block" endtag="yes">
+    <tagformat nlbeforetag="0" nlaftertag="0" />
+
+  <attributes>
+    <attrib name="id"/>
+    <attrib name="instance"/>
+    <attrib name="name"/>
+    <attrib name="module"/>
+    <attrib name="template"/>
+
+    <attrib name="title"/>
+  </attributes>
+  </tag>

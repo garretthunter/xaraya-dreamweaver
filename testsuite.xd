@@ -1,0 +1,54 @@
+PI Test Cases<br>
+<xar:blocklayout>blocklayout
+
+<br>
+<xar:blockgroup>blockgroup
+#xarDBAlterTable()#
+<br>
+<xar:block>block<br>
+<xar:break />break
+<br>
+<xar:continue />continue
+
+<br>
+<xar:if>if
+
+<br>
+<xar:else/>else
+#xarDBCreateDatabase()#
+<br>
+<xar:elseif>elseif
+
+</xar:if>
+
+<br>
+<xar:for>for<br>
+<xar:foreach>foreach<br>
+<xar:set id="id" scope="module" name="name">set </xar:set>set<br>
+<xar:loop>loop</xar:loop>
+<br>
+<?php 
+asdfasdf
+?>
+<xar:ml>ml
+<br>
+<xar:mlkey>mlkey</xar:mlkey>
+<br>
+<xar:mlstring>mlstring</xar:mlstring>
+<br>
+<xar:mlvar>mlvar</xar:mlvar>
+<br>
+<xar:module>module
+<br>
+<xar:comment> Empty Xaraya Template </xar:comment>comment
+<br>
+<xar:sec id="id" mask="mask" catch="true" component="comp" instance="inst">sec</xar:sec>
+<br>
+<xar:var id="id" scope="module" name="name" />var
+<br>
+<xar:while id="asdf" condition="asdfasdsadf"></xar:while>while
+<br>
+<xar:template/>template
+
+</xar:blocklayout>
+

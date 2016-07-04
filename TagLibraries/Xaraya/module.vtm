@@ -1,0 +1,15 @@
+<tag name="module" endtag="no">
+  <tagformat nlbeforetag="0" nlaftertag="0" /> 
+    
+  <attributes>
+    <attrib name="id"/>
+    <attrib name="main" type="enumerated">
+      <attriboption value="true" />
+      <attriboption value="false" />
+    </attrib>
+    <attrib name="module"/>
+    <attrib name="type"/>
+    <attrib name="func"/>
+    <attrib name="args"/>
+  </attributes>
+  </tag>

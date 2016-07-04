@@ -1,0 +1,8 @@
+<codeColors>
+    <colorGroup doctypes="Xaraya">
+        <syntaxColor id="CodeColor_XarComment" text="#999999" />
+        <syntaxColor id="CodeColor_XarAPI" text="#990099" bold="true" />
+        <tagColor id="DWTagLibrary_Xaraya" text="#000099" />
+        <tagColor id="CodeColor_XarTag" text="#990099" />
+    </colorGroup>
+</codeColors>

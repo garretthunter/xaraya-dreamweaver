@@ -1,0 +1,59 @@
+<!-- tag:xar:blocklayout,priority:1,selection:exact-->
+<!DOCTYPE HTML SYSTEM "-//Macromedia//DWExtension layout-engine 6.0//pi">
+<html>
+
+<head>
+<!-- Copyright 2004 Garrett Hunter. All rights reserved. -->
+<title>xar:blocklayout Tag Property Inspector</title>
+<SCRIPT LANGUAGE="javascript" SRC="_pi_common.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/dwscripts.js"></SCRIPT>
+<SCRIPT SRC="../Shared/Common/Scripts/TagEditClass.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" SRC="xarblocklayout_inspector.js"></SCRIPT>
+<script language="javascript">
+function displayHelp()
+{
+    alert("Root-tag of a blocklayout complete template. With a complete template " +
+		  "we mean the assembly of the page level template, the relevant module templates " +
+		  "and all other template snippets necessary to construct the complete template for a particular request.");
+}
+</script>
+</head>
+
+<body marginwidth="0" marginheight="0">
+<span id="image" style="position:absolute; width:36px; height:36px; z-index:1; left: 5px; top: 9px"><img src="XAR.gif" width="36" height="36"></span>
+<div id="contentBoxLayer" style="position:absolute; width:65px; height:38px; z-index:1; left: 44px; top: 9px; visibility: visible;">
+<table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left" height="17" NOWRAP>Content</td>
+        </tr>
+        <tr>
+          <td align="left" nowrap>
+
+            <select name="content" id="content" onChange="updateTag('content')">
+              <option value=""></option>
+              <option value="text/html">plain old html</option>
+              <option value="text/plain">plan text</option>
+              <option value="text/xml">xml data</option>
+            </select>
+            </td>
+        </tr>
+  </table>
+</div><div id="topLayer" style="position:absolute; left:175px; top:2px; width:300px; height:38px; z-index:25">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="9%" align="right" nowrap>Version&nbsp;</td>
+      <td width="91%" nowrap>&nbsp;
+        <input type="text" name="version" id="version" onBlur="updateTag('version')" style="width:65px" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right" valign="top" nowrap>xmlns:xar&nbsp;</td>
+      <td nowrap>&nbsp;
+        <input type="text" name="xmlns" id="value" onBlur="updateTag('xmlns')" style="width:250px" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
